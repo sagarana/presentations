@@ -1,5 +1,5 @@
 # Presentation slides
-Assorted presentations by Jeremy Buhler, Data Librarian, UBC Library
+Selected presentations by Jeremy Buhler, Data Librarian, UBC Library
 
 - [NVivo for literature reviews](20201002-nvivo-lit-review/), SOWK 554C class, October 2020
 - [Collaborative development and publishing of open instructional content with GitHub](20201021-access/), Access conference, October 2020
