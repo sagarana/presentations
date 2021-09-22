@@ -33,7 +33,7 @@
 				</p>
 
 				<aside class="notes">
-				 Before we start I want to reinforce the obvious: this presentation is exclusively about data available form Statistics Canada that is also openly available for public use.</aside>
+				 Before we start I want to reinforce the obvious: this presentation is exclusively about data available from Statistics Canada that is also openly available for public use.</aside>
 			</section>
 
 <section data-background="#e6f7ff">
@@ -47,7 +47,7 @@
 	<p style="font-size:0.9em; margin-top: 70px">slides at <a href="https://bit.ly/find-statcan-data">https://bit.ly/find-statcan-data</a></p>
 
 	<aside class="notes">
-	We only have an hour together so our learning objectives are modest. By the end of the hour you should have an overview of the type of data that's available, where to find it, how to find your way around a Public Use Microdate File (or PUMF), and where to get help if you have questions about accessing or working with Statistics Canada data</aside>
+	We only have an hour together so our learning objectives are modest. By the end of the hour you should have an overview of the type of data that's available, where to find it, how to access Public Use Microdate Files (or PUMFs), and where to get help if you have questions about accessing or working with Statistics Canada data. The slides for this presentation are at the link shown here (also in the chat), and will remain available online.</aside>
 </section>
 
 <section>
@@ -60,7 +60,7 @@
 		<img data-src="media/participants_window_menu.png" alt="The participants menu">
 	</div>
 	<aside class="notes">
-	During this session I'd like ot use the chat window and the participant window in Zoom to stay connected with you, as we're a fairly large group. If you haven't used the participants pane before you can access it in the zoom on-screen menu. I'd like to make sure we can all access it now... please open the participants pane and click the green checkmark at the bottom.
+	We're meeting today online, but in real time. I want to take advantage of that fact and encourage you to engage with me - and with each other - during the talk. Your Zoom toolbar gives you a few options for engaging. You can use the Zoom toolbar to answer "yes or no" questions or to raise your and; if your reactions button doesn't look like this you might be on an older version of zoom, but you'll find the "yes/no" buttons in the "Participants" window. I'd like to make sure these yes/no buttons will be an effective way to communicate with you, and that everyone knows where they are. Please use the reactions feature and click the green checkmark to indicated you can access this feature.
 	</aside>
 </section>
 
@@ -71,7 +71,7 @@
 		<img data-src="media/annotate_toolbar.png" alt="annotation toolbar">
 	</div>
 	<aside class="notes">
-	The annotate function is another useful one in zoom. Near the top of your screen you'll find a menu option like this. Open it up and click the "Annotate" option, then use the toolbar that pops up to write on the presentation screen.
+	The annotate function is another useful one in zoom. Next to the green bar that says "You are viewing the instructor's screen" is a drop-down menu with view options. Open it and click the "Annotate" option, then use the toolbar that pops up to write or draw on the presentation screen.
 	</aside>
 </section>
 
@@ -91,12 +91,12 @@
 <section data-background="#e6f7ff">
 	<h3>About Statistics Canada</h3>
 	<p style="color:gray"><em>Serving Canada with high-quality statistical information that matters</em></p>
-	<p class="fragment" style="margin-top:40px; font-size: 0.9em">"Statistics Canada produces statistics that help Canadians better understand their country - its population, resources, economy, society and culture."</p>
+	<p style="margin-top:40px; font-size: 0.9em">"Statistics Canada produces statistics that help Canadians better understand their country - its population, resources, economy, society and culture."</p>
 	<p style="font-size:0.8em; margin-top: 70px">from <a href="https://statcan.gc.ca/about/about">https://statcan.gc.ca/about/about</a></p>
 
 	<aside class="notes">
-		<p>A few words about Statistics Candidate. Its mission is to collect and provide data about Canada's population, resources, economy, society, and so on.</p>
-		<p>But <em>serving Canada</em> does not necessarily mean making the data available to everyone. In fact, withholding some of this data from public use is part of StatCan's service: preserving the privacy of people who respond to the census or to surveys, for example.</p></aside>
+		<p>A few words about Statistics Canada. Its mission is to collect and provide data about Canada's population, resources, economy, society, and so on.</p>
+		<p>But <em>serving Canada</em> does not necessarily mean making the data available to everyone. In fact, withholding some of this data from public use is part of Statistics Canada's service: preserving the privacy of people who respond to the census or to surveys, for example.</p></aside>
 </section>
 
  <section data-background="#e6f7ff">
@@ -113,23 +113,26 @@
 		</ul>
 	</div>
 	<aside class="notes">
-	But there is a subset of data that Statistics Canada does release for public use under the term of their Open License. This is quite a permissive license.<br/>
-	So what kind of data is out there and how does it get used?
+		<p>Though it can't release all the data it collects, there is a subset of data that Statistics Canada does release for public use under the terms of thee Statistics Canada Open License.</p> 
+
+		<p>This is quite a permissive license that allows anyone to "use, reproduce, publish, freely distribute, and even sell" the data and products derived from it, with the conditions that it not be used to try to identify individuals, and that Statistics Canada is properly credited as the data source.</p>
+
+		<p>So what kind of data is out there and how does it get used?</p>
 	</aside>
 </section>
 
 <section data-background-iframe="https://www.cbc.ca/news/business/august-jobs-numbers-canada-1.6170814" data-backround-interactive data-background-transition="zoom">
 
 <aside class="notes">
-	Chances are you've come across news stories like these that cite Statistics Canada as their source. This story is a fairly high level overview that provides some recent statistics about employment in Canada, including the overall unemployment rate of 7.1%.<br/>
-This is great if the news story has exactly what you're interested in, but what we see in this story are descriptive statistics: a summary that's easy to understand but that doesn't leave you much flexibility. What if you wanted to know how unemployment rates differ by province or by age group?</aside>
+	<p>Chances are you've come across news stories like this one from CBC that cite Statistics Canada as its source. This story is a fairly high level overview that provides some recent statistics about current employment in Canada compared to before the pandemic. It states that the overall unemployment rate in August 2021 was 7.1%.</p>
+	<p>This might be useful in your research if the news story has exactly what you're interested in, but what we see in this story are statistical summaries at a very high level: they're easy to understand but don't provide much nuance.</p>
 </section>
 
 <section  data-background="#5a82aa">
 	 <div style="text-align: left; width: 47%; height: 90%; float:left; position:relative; padding-top: 50px;">
 	 		<h5>Statistical overview</h5>
 	 		<ul style="font-size: 0.9em; color: #b3d0d8;">
-	 			<li>counts, averages, etc. for certain regions or groups</li>
+	 			<li>counts, percentages, etc. for certain regions or groups</li>
 				<li>calculated for a purpose, but <span class="fragment highlight-green">not very flexible</span></li></ul>
 	 		</div>
 
@@ -139,6 +142,8 @@ This is great if the news story has exactly what you're interested in, but what 
 	 </div>
 
 	 <aside class="notes">
+		 <p>Statistics Canada produces many tables that provide statistical overviews with counts and percentages. These data tables are often freely available on the Statistics Canada website and may have filters that allow you to adjust the parameters to a limited degree. The tables are calculated for a particular purpose, however, and are not very flexible if you happen to be interested in variables or population characteristics that weren't included in their design</p>
+		 <p>In many cases, Statistics Canada also provides access to the underlying data to meet this kind of need, so you can answer follow-up questions and dig deeper into patterns that are not represented in the published statistical overviews.</p></aside>
 
 </section>
 
@@ -152,12 +157,15 @@ This is great if the news story has exactly what you're interested in, but what 
 		<li>May only be a sample of responses</li>
 	</ul>
 	</div>
-
-		</section>
+	<aside class="notes">
+		<p>That's where the Public Use Microdata Files, or PUMFs, come in. Please use the reactions button to indicate yes or no, whether you've looked at PUMF data before. Even if you've just opened a PUMF to see what's inside, answer "yes"; if you you've never accessed a PUMF, answer "no". This workshop doesn't assume any prior experience with PUMFs, but it will help me to understand what experience you have.</p>
+		</p>PUMFs are files that contain case-level data from the Census and from Statistics Canada surveys, meaning each row contains data for one individual. There's a lot you can do with this level of detail, but researchers should be aware that this public data is modified in a few ways to protect respondent privacy. Sensitive variables or those that could identify individuals may be removed from the PUMF or aggregated. For example, PUMFs don't usually contain sexual orientation data, even where that data is collected, and age might be reported in age groups instead of an exact age. For the Census, the PUMF represents a 2.7% sample of the Canadian population - not responses for every individual. This is still plenty for of data for many kinds of research, but those who need data not included in the PUMFs may need to apply for access to a Research Data Centre, as the more detailed data is not freely available.</p>
+		<p>In a moment we'll look at some tables on the Statistics Canada website, then explore PUMFs available from Abacus, UBC Library's data repository. Before we do, I'd like to hear from you. What kind of data are you working with, or do you expect to work with? Are there specific Statistics Canada surveys that interest you? Please respond in the chat.</p>
+	</aside></section>
 
 
 		<section style="text-align: left;">
-		  <h3>Where is this stuff?</h3>
+		  <h3>Where to access tables and PUMFs</h3>
 		  <div style="margin-top:70px">
 		  	<p class="fragment fade-in-then-semi-out">Statistics Canada Data search <a href="https://www150.statcan.gc.ca/n1/en/type/data" target="_blank">https://www150.statcan.gc.ca/n1/en/type/data</a></p>
 		  	<p class="fragment fade-up">Abacus Open Data collection <a href="https://abacus.library.ubc.ca/dataverse/open" target="_blank">https://abacus.library.ubc.ca/dataverse/open</a></p></div>
@@ -166,12 +174,12 @@ This is great if the news story has exactly what you're interested in, but what 
 		<aside class="notes">
 			<p>Steps for Statistics Canada Data search. <em>make sure window is sized so subjects appear on left, not top</em></p>
 			<ul>
-				<li>Orient, expand subject list</li>
+				<li>Orient, show subject list</li>
 				<li>Filter by subject "Labour", note large number of results</li>
 				<li>Search keywords "employment"</li>
 				<li>Switch to "Tables" tab, select "Labour force characteristics by province..." in new tab</li>
-				<li>Scroll down, show geography parts</li>
 				<li>Point out the 7.1% unemployment rate from article</li>
+				<li>Scroll back up, show filters and add/remove data; but what if you need even more detail?<li>
 				<li>Scroll to bottom, show source of data (Labour Force Survey)</li>
 				<li>Return to search results</li>
 				<li>Switch to PUMF tab and select LFS (second in list)</li>
