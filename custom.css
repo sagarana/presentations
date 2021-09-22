@@ -8,6 +8,20 @@
 	border-style: none;
 }
 
-.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
-	text-transform: none;
+body:after {
+content: url(http://gis.sites.olt.ubc.ca/files/2019/05/logo.png);
+position: fixed;
+bottom: .5em;
+left: 1.5em; 
 }
+
+    .reveal h1,
+    .reveal h2,
+    .reveal h3,
+    .reveal h4,
+    .reveal h5,
+    .reveal h6 {
+      text-transform: none;
+      text-shadow: none;
+      word-wrap: break-word; }
+
