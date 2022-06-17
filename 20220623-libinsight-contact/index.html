@@ -70,17 +70,8 @@
 
 
 <section data-transition="slide-in fade-out">
-		<div style="position: relative; height: 100vh; padding: 0 0.5em; width: 20%; left: 50%; border-left: solid grey 2px; font-size: 0.6em; text-align: left">
-			<p style="margin-top: 0;">Love Desk Tracker</p>
-			<p style="position: absolute; bottom: 0;">Hate Desk Tracker</p>
-		</div>
-		<div style="position: relative; top: -50vh; width: 100%; font-size: 0.6em; border: solid grey 2px; text-align: left;">
-			<p style="position: relative; float: left; width: 15%">Pessimistic about LibInsight</p>
-			<p style="position: relative; float: right; width: 15%">Optimistic about LibInsight</p>
-		</div>
-		<aside class="notes">
-			Go ahead and give it a try... use the annotate menu to make a mark anywhere in this quadrant indicating where you are today.</aside> 
-</section>
+	<img src="media/quadrant.png" width="120%" height="120%"/>
+			</section>
 
 <section data-background="steelblue" data-transition="fade-in none-out">
 	<h2>Overview and timeline</h2>
@@ -91,7 +82,7 @@
 	<p>Migrate Desk Tracker <span class="fragment highlight-blue" data-fragment-index="1">forms</span> to LibInsight <span class="fragment highlight-blue" data-fragment-index="1">datasets</span></p>
 	<p class="fragment">Prepare Library employees for the change</p>
 	<p style="font-size:smaller;color:grey;margin-top:100px;" class="fragment">Gate counts will also migrate to LibInsight; separate training will be offered to current gate count reporters.
-	<aside class="notes">In this presentation I will use examplse from the Patron questions and Group presentations datasets because they're the most used. Some of you have other unit-specific datasets, like TS cataloguing. Even if they're not directy covered in this presentation, rest assured that anything collected in Desk Tracker will be migrated to LibInsight and will have the Library Data Team's support to make sure it keeps working.
+	<aside class="notes">In this presentation I will use examples from the Patron questions and Group presentations datasets because they're the most used. Some of you have other unit-specific datasets, like TS cataloguing. Even if they're not directy covered in this presentation, rest assured that anything collected in Desk Tracker will be migrated to LibInsight and will have the Library Data Team's support to make sure it keeps working.
 </section>
 
 <section data-background="seashell" data-transition="slide-in none-out"> 
@@ -136,7 +127,7 @@
 
 <section data-background="seashell"> 
 	<p><span style="font-size:larger; color:darkolivegreen">Onboard new employees</span><br/>
-	<p>Ensure new employess can login, access relevant datasets, and follow established data entry practices</p>
+	<p>Ensure new employees can login, access relevant datasets, and follow established data entry practices</p>
 </section>
 
 <section data-background="darkorange" data-transition="zoom-in none-out">
@@ -181,9 +172,9 @@
 </section>
 
 <section data-background="seashell"> 
-	<p><span style="font-size:larger; color:darkolivegreen">More control over data entry forms</span><br/>
+	<p><span style="font-size:larger; color:darkolivegreen">More control over datasets</span><br/>
 	<p>Branches/units can customize their own <em>Patron questions</em> datasets by adding fields for local needs</p>
-	<aside class="notes">Mention something here about each branch having their own form</aside>
+	<aside class="notes"></aside>
 </section>
 
 <section>
@@ -211,11 +202,27 @@
 	</div>
 </section>
 
-<section>
-	<p><em>Patron questions</em> dataset, Asian Library<br/>
-	<span style="font-size:smaller;color:grey" class="fragment" data-fragment-index="1">Third column is for optional branch-specific questions</span></p>
+<section data-transition="zoom-in none-out">
+	<div style="margin-bottom:80px"><p><em>Patron questions</em> dataset, Asian Library</p></div>
 	<img src="media/LibInsight_screencap_patron_questions.png"/>
-	<img class="fragment" data-fragment-index="1" style="position:absolute;left:65%;top:18%" src="media/arrow_down_right.png"/>
+</section>
+
+<section data-transition="none">
+	<p><em>Patron questions</em> dataset, Asian Library<br/>
+	<span style="font-size:smaller;color:grey">First column is for <span style="color:darkorange">required core fields</span></span></p>
+	<img src="media/LibInsight_screencap_patron_questions_1.png"/>
+</section>
+
+<section data-transition="none">
+	<p><em>Patron questions</em> dataset, Asian Library<br/>
+	<span style="font-size:smaller;color:grey">Second column is for <span style="color:darkorange">optional core fields</span></span></p>
+	<img src="media/LibInsight_screencap_patron_questions_2.png"/>
+</section>
+
+<section data-transition="none">
+	<p><em>Patron questions</em> dataset, Asian Library<br/>
+	<span style="font-size:smaller;color:grey">Third column is for <span style="color:darkorange">optional custom fields</span></span></p>
+	<img src="media/LibInsight_screencap_patron_questions_3.png"/>
 </section>
 
 <section data-background="darkorange" data-transition="zoom-in none-out">
@@ -230,12 +237,14 @@
 
 <section data-transition="none-in slide-out" data-background="seashell">
 	<p>Each branch/unit has its own <em>Patron questions</em> dataset</p>
-	<p>Custom questions may be added to the right-hand column of the form</p>
-	<p class="fragment" style="color:darkorange;font-size:smaller"><b>Do not edit the left-hand and center columns:</b> these are the same at all locations for consistent data collection and reporting</p>
+	<p>Custom fields may be added to the right-hand column of the dataset</p>
+	<div class="fragment" style="margin-top:100px;color:darkorange;font-size:smaller">
+		<p><b>Do not edit system fields or core fields in the left-hand and centre columns.</b>
+	These are the same at all locations for consistent data collection and reporting</p>
 </section>
 
 <section data-background="seashell">
-	<p>Custom questions in Desk Tracker will be migrated to LibInsight by the Library Data Team</p><br/>
+	<p>Custom fields in Desk Tracker will be migrated to LibInsight by the Library Data Team</p><br/>
 	<p class="fragment">Don't worry about editing the <em>Patron questions</em> dataset now, but when you do...</p>
 </section>
 
@@ -245,7 +254,7 @@
 </section>
 
 <section data-transition="none">
-	<p>...and only add/edit fields in the <em>Right Column</em></p>
+	<p>...and only add/edit fields in the <em>Optional custom</em> column on the right</p>
 	<img src="media/LibInsight_screencap_edit_columns.png"/>
 </section>
 
