@@ -122,10 +122,8 @@ notes: The article references this other paper with many of the same authors tha
 [Start on statistics Canada home page](https://www150.statcan.gc.ca/n1/en/type/data) <!-- .element: class="small" -->
 
 
-notes: On landing page, start with "mental health" search. Notice some unlikely hits - drill down by subject into "health" and then "mental health and wellbeing"
+notes: On landing page, start with "mental health" search. Notice some unlikely hits - drill down by subject into "health" and select health characteristics table. 
 
-possibley use second table: <https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=4510008001>
-possible drill-down within table: visible minority subgroups, chinese compared to others
 
 
 ---
@@ -181,7 +179,7 @@ notes: Most of what you'll find on these pages are aggregated statistics, not ca
 ### US resources: surveys
 
 - [ICPSR](https://resources.library.ubc.ca/page.php?details=inter-university-consortium-for-political-and-social-research&id=511) (access via UBC Library)
-- [National Longitudional Surveys](https://www.nlsinfo.org/)
+- [National Longitudinal Surveys](https://www.nlsinfo.org/)
 
 
 notes: To introduce ICPSR we'll look for a longitudinal survey with the keywords "longitudinal study health". Among other results is the National Longitudional Study of Adolescent to Adult Health" with data from 1994-2018. There may well be other results here that are more relevant, but I'm going to choose this one to show a handy feature of the ISCPR catalogue. There are several tabs in the item record. The "At a glance" tab tells about the survey itself, and we learn that the survey "combines longitudinal survey data on respondents' social, economic, psychological, and physical well-being with contextual data on the family, neighborhood, community, school, friendships, peer groups, and romantic relationships."
