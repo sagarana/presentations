@@ -17,7 +17,7 @@ notes: welcome, session will be recorded, introductions
 ### Library Data Team
 
 - Jeremy Buhler, _Data Librarian_
-- Brett Dimond, _title?_
+- Brett Dimond, _Data Analyst and Curator_
 - Meghan Waitt, _Library Data Analyst_
 
 With help from TDUX and Library IT partners <!-- .element: class="fragment" style="color:darkgreen; font-style:italic" -->
