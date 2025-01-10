@@ -3,7 +3,7 @@
 \
 \
 Jeremy Buhler, _Data Librarian_
-Meghan Wait, _Library Data Analyst_
+Meghan Waitt, _Library Data Analyst_
 
 notes: Introductions 
 
@@ -44,6 +44,7 @@ notes: At UBC Library, responsibility for collecting and providing access to lib
 ---
 
 ## Example: Annual Report to Senate 
+Replace with new report 
 
 ![2022/23 Senate Report figures](media/senate_report.png)
 
@@ -98,24 +99,20 @@ notes: new section, emphasis on why this work is important, who it benefits, etc
 Ideal to split these slides between us. Scenarios focus on internal value
 
 ---
+## Data integrity, cleanup, providing context
+
+notes: Meghan
+
+---
 
 ### Scenario 1
 
-notes: a scenario where a library employee is faced with a large manual transcribing job, with data that's already
+notes: a scenario where a library employee (GAA?) is faced with a large manual transcribing job, with data that's already available. We can provide a spreadsheet, they'd have to web scrape.
 
 ---
 
 ### Scenario 2
-
-
-notes: another similar, but maybe a workflow
-
---- 
-
-### Scenario 3
-
-
-notes: an admin/planning example? Maybe something Sheldon's needed for budget/acquisitions?
+notes: collections budget, subject librarian has to purchase collections materials.
 
 ---
 
@@ -151,9 +148,11 @@ notes: stress this isn't an admin unit, it's meant to be integrated into work at
 
 notes: examples of 2-3 workflows, each showing a different aspect. Collectively they should cover automatically generated data; data collected by employees; SQL; API; Tableau
 
+Not just to end report, but workflow includes how the data used, combined with others, leads to decisions.
+
 ---
 
-## Workflow: Google Analytics
+## Workflow: API -> TSV -> Tableau (Google Analytics)
 
 ---
 ### Overview: what, why 
@@ -251,13 +250,11 @@ notes: Load the report, step through each of the sheets in order, find a questio
 
 ---
 
-### Scenario: LibInsight
+### Workflow: Gate counts
 
+Workflow emphasizes long history, various collection formats, library closures, inconsistencies in reporting. How to give context and use responsible. Importance of normalization. Data integrity.
+
+notes: Meghan
 ---
-## Tableau reports with LibInsight data
 
-Scheduled data exports using LibInsight API
-
-	<img class="fragment" src="media/diagram.png"/>
 	
-![LibInsight_data_process](media/libinsight_diagram.png)
