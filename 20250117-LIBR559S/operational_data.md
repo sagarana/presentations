@@ -2,169 +2,173 @@
 ### Overview for LIBR559S 
 \
 \
-Jeremy Buhler, _Data Librarian_
+Jeremy Buhler, _Data Librarian_  
 Meghan Waitt, _Library Data Analyst_
 
 notes: Introductions 
 
 ---
+<!-- .slide: data-background="paleturquoise" -->
+### What we'll cover
 
-## Session goals
-
-A non-technical introduction to... 
-
-- Types of operational data in academic libraries
-- Value of this data in workflows and planning
-- Making data available where it's needed
+- Types of operational data in academic libraries 
+- Value of this data in workflows and planning 
+- Guiding principles for handling data 
 - Tools and skills that make this possible
 
-notes:  
+notes: In the next 40 minutes or so, Meghan and I want to provide a non-technical introduction to (read list).
+I encourage you to make this more interesting for everyone by engaging with us: feel free to interrupt us along the way with questions or observations.
 
 ---
 
-## What do we mean by operational data?
+## Tableau report demonstration
 
-notes: list various kinds, distinguish from RDM and from data collected primarily for researchers (e.g. Abacus) 
+---
+### What do we mean by _operational data_?
+
+Data generated in the course of library operations or collected to support operational needs. <!-- .element: class="fragment" -->
+
+notes: You're in an RDM class that focuses on data generated in the course of research and that is often managed by libraries. Unlike RDM, our work is limited to _operational data_ which has a different source and purpose. Here's a working definition of operational data (click to show, then read). Our data work is more like business analysis or operational support, though many of the skills and values are the same. 
+
+---
+### The _Library Data Team_
+
+- generating reports and data for Library employees in all branches/units <!-- .element: class="fragment" -->
+- compiling data for statistical surveys <!-- .element: class="fragment" -->
+- managing operational data collection <!-- .element: class="fragment" -->
+- maintaining data reporting platforms <!-- .element: class="fragment" -->
+
+notes: That amounts to a lot of data coming from many systems. At UBC Library, the Library Data Team is responsible for collecting and providing access to library operational data, as well as for generating reports and completing statistical surveys. Currently the Library Data Team consists of just Meghan (full time) and me (half time). I'm proud of what we're able to accomplish with just one and a half positions. _Click through bullet points_. Embedded in these tasks are many others related to maintenance, documentation, training, and workflow development.
 
 ---
 
-## The Library Data Team
+#### Example: Annual Report to Senate 
 
-At UBC Library the **Library Data Team** is responsible for access to operational data, which includes:
-
-- generating reports and data for Library employees in all branches/units
-- compiling data for statistical surveys
-- managing operational data collection
-- maintaining data reporting platforms
-
-Currently 1.5 FTE, providing support to all UBC Library branches
-
-notes: At UBC Library, responsibility for collecting and providing access to library operational data, as well as for generating reports and completing statistical surveys, falls to the Library Data Team. Embedded in these bullet points are many other tasks related to maintenance, documentation, training, and workflow development.
-
----
-
-## Example: Annual Report to Senate 
-Replace with new report 
-
-![2022/23 Senate Report figures](media/senate_report.png)
+![2023/24 Senate Report figures](media/senate_report.png)
 
 <https://about.library.ubc.ca/news/publications/senate-report-2022-2023/> <!-- .element: class="small" -->
 
-notes: 
+notes: at the most basic level, operational data compiled by the data team makes it into statistical surveys that allow for comparison among libraries, as well as reports like this UBC Library Annual Report to Senate. Behind each of those data points is a workflow - in some cases quite complex - to collect the relevant data from across the library system.
+
+I refer to this kind of use as _basic_ because it's relatively static one-way reporting. It's important to communicate what we do, but a more in-depth and meaningful application of operation data - in my view - is to use it for assessing and planning services, and to improve internal workflows.  
 
 ---
-
+<!-- .slide: data-background="paleturquoise" -->
 ## Types of operational data
 
 ---
 
-### Two channels for operational data creation 
+### Where does the data come from?
 
-- generated automatically by library systems, accounts, platforms
-- collected/compiled by library employees
+- generated automatically by library systems <!-- .element: class="fragment" -->
+- collected/compiled by library employees <!-- .element: class="fragment" -->
 
 
-notes:
+notes: broadly speaking, most operational data comes from two channels. _click to show_: a lot of the operational data is generated automatically by library systems, accounts, and platforms. Think about the Library Management Platform (LPM), or the older term Integrated Management System (ILS). This is the system at the heart of day-to-day library operations, that tracks the collection, acquisitions, use, and so on. Thousands of transactions are recorded per day and depending on the system might be available to library employees in a reporting interface, by querying a database directly, or through an API.
 
----
-
-### Data generated automatically
-
-Ask them to brainstorm, then show list on slide
-
-- 
-- 
-- 
-
+The other method is my collecting and compiling the data ourselves. Examples include gate counts, patron questions. UBC Library has online tools like SpringShare's LibInsight platform to help with data collection, but that information is entered by library employees.
 
 ---
+<!-- .slide: data-background="cornsilk" -->
+### Think of examples
+_data generated automatically_ <!-- .element: class="fragment semi-fade-out" data-fragment-index="1" -->
+_data compiled by employees_ <!-- .element: class="fragment" data-fragment-index="1" -->
 
-### Data compiled by employees
-
-Similar to above, start by asking for ideas
-
--
--
--
+notes: _Prompt for responses from the group for each channel. Put columns on board, then fill gaps if necessary_ 
 
 ---
-
+<!-- .slide: data-background="paleturquoise" -->
 ## The value of operational data
+
+notes: _section title slide, transition from 'types' to 'value' of data_. So we've listed many kinds of data. What is it actually good for? Why should anyone care about it?
+
+---
+### Why collect operational data?
 
 - needed for external reporting
 - valuable for internal planning, workflows, assessment
 
-notes: new section, emphasis on why this work is important, who it benefits, etc. In each scenario, emphasize value of data for time-saving, reducing errors, better decision making, etc. Each example could include images to illustrate how we supported them: e.g. screenshot of a Tableau report, illustration of a data workflow. 
+notes: _read bullets, after each describe in a few sentences. In this new section emphasis on why this work is important, who it benefits, etc._ 
 
-Ideal to split these slides between us. Scenarios focus on internal value
+To help illustrate we'll share two scenarios that involve operational data reporting. In each scenario, emphasize value of data for time-saving, reducing errors, better decision making, etc. _Each example could include images to illustrate how we supported them: e.g. screenshot of a Tableau report, illustration of a data workflow._
 
 ---
-## Data integrity, cleanup, providing context
+<!-- .slide: data-background="cornsilk" -->
+### Scenario 1
+Placeholder for descriptive title or phrase 
+
+notes: _Meghan to present scenario related to collections budget or spending_
+a scenario where a library employee (GAA?) is faced with a large manual transcribing job, with data that's already available. We can provide a spreadsheet, they'd have to web scrape.
+
+---
+<!-- .slide: data-background="cornsilk" -->
+### Scenario 2
+Placeholder for descriptive title or phrase 
+
+notes: _Jeremy to present scenario where a manual transcribing job could be eliminated or simplified_ 
+
+---
+<!-- .slide: data-background="paleturquoise" -->
+## Guiding principles for handling data
+
+notes: _Proposed new section to highlight values that inform our work (section also added to outline slide at beginning). This is a good place to talk about our training and documentation efforts, the work it takes to present data responsibly, being available to all library employees, the importance of normalization, the preference for direct access to disagregated data (because out-of-the-box eventually comes up short), etc._
+
+At least some slides in this section could have prompts for student engagement, possibly references to the way that would also apply in RDM (e.g. describing data). I suggest we use our Tableau setup as a recurring thread through this section.
+
+---
+
+### Library Data Team's role as interpreter
+
+- Consultations similar to reference interviews
+- Need to understand library context
+- Familiarity with technology and tools
+- Help people understand what's possible
+
+notes: The Library data team acts as a bridge between library operations/employees and the data.
+
+### Available to all library employees
+
+notes: _stress this isn't an admin unit, it's meant to be integrated into work at all levels, wherever it is helpful._
+
+Could we use this as a bridge to introduce our Tableau setup? E.g. everyone has accounts, unless reports are confidential anyone can browse them, etc. If so, the subsequent slides in this section could, where applicable, show a Tableau report that expresses that value. For example: dashboard tabs with instructions; data that's normalized before being presented; ability to export underlying data; 
+
+---
+
+### Data integrity, cleanup, providing context
 
 notes: Meghan
 
----
 
-### Scenario 1
-
-notes: a scenario where a library employee (GAA?) is faced with a large manual transcribing job, with data that's already available. We can provide a spreadsheet, they'd have to web scrape.
-
----
-
-### Scenario 2
-notes: collections budget, subject librarian has to purchase collections materials.
-
----
-
-## Data literacy/awareness is uneven
-
-notes: it's obvious that there is data that can help in these scenarios, but that's not necessarily obvious to the people originally involved. With so many data sources (many obscure, behind the scenes), so many employees, and so much change in systems and workflows, it's easy to understand how someone might not realize that the Library Data Team can support them. A big part of our work is understanding library activities, developing relationships across the library, and paying attention to places where our work might be helpful.
-
----
-
-## Out-of-the-box reports are limited
-
-
-
----
-
-## Library Data Team's role as interpreter
-
-- Library data team acts as a bridge between library operations/employees and the data.
-- Involves work similar to reference interviews
-- Requires understanding of the library context, as well as the technology/tools involved
-- Help library employees understand what's possible
-
-
----
-
-## Available to all library employees
-
-notes: stress this isn't an admin unit, it's meant to be integrated into work at all levels, wherever it is helpful. On this slide also introduce Tableau as data distribution platform.
-
----
-
-## New section: workflows
-
-notes: examples of 2-3 workflows, each showing a different aspect. Collectively they should cover automatically generated data; data collected by employees; SQL; API; Tableau
-
-Not just to end report, but workflow includes how the data used, combined with others, leads to decisions.
-
----
-
-## Workflow: API -> TSV -> Tableau (Google Analytics)
-
----
-### Overview: what, why 
+### Data literacy/education
 
 notes:
+
+---
+
+### Preference for disagregated data
+
+notes:
+
+---
+
+<!-- .slide: data-background="paleturquoise" -->
+## Operational data workflows
+
+notes: _describe two operational data workflows to help students understand the range of tools involved, and the effort involved in presenting an accessible report or dashboard. The workflows should also include examples of how the data gets used._
+
+---
+<!-- .slide: data-background="cornsilk" -->
+### Workflow 1
+Improving access to Google Analytics data about website use
+
+notes: highlight the API -> TSV -> Tableau (Google Analytics)
 
 ---
 
 <!-- .slide: data-transition="none" -->
 ![GA data flow](media/ga_data_flow_1.png)
 
-notes: This is a simplified representation of how the data gets from Google to you. The starting point is the Google Analytics Server where all the data is first collected.
+notes: 
 
 ---
 
@@ -176,8 +180,6 @@ notes: at the end of every month the Library Data Team takes snapshots of the mo
 ---
 
 <!-- .slide: data-transition="zoom-in fade-out" data-background-image="media/tsv_view.png" -->
-
-![GA data flow](media/file_hierarchy.png)
 
 notes: These TSV files are stored in a T: drive directory that's visible to everyone. Some of the files are large (the pages file has more than 3M rows) and won't open in software like Excel, but they're available to anyone who wants to analyze the data themselves. 
 
@@ -197,64 +199,11 @@ notes: here's an example of one of the Tableau dashboards. This one shows an ove
 
 ---
 
-<!-- .slide: data-background="seashell" data-transition="slide-in fade-out -->
-### Links to reports on Tableau
+### Workflow 2
+Compiling gate counts
 
-- [Library website activity](https://reports.im.it.ubc.ca/#/site/Library/workbooks/6294/views) for current data
-- [Library website activity - historical](https://reports.im.it.ubc.ca/#/site/Library/workbooks/6137/views) before 2023-07
+notes: _Meghan to present this. Workflow emphasizes long history, various collection formats, library closures, inconsistencies in reporting. How to give context and use responsible. Importance of normalization. Data integrity._
 
-notes: The two repors shown here are a good starting point. They have similar content but cover different time periods.
-
-In 2023 Google Analytics underwent a major change, upgrading from a platform called _Universal Analytics_ to _Google Analytics 4_. This included changes to many dimensions and metrics, so it's important to use caution when comparing website activity from before and after July 2023. We've documented some of the differences on the Google Analytics pages in Confluence. If you have questions about comparing data over the long term, please consult these pages or contact the Library Data Team.
-
-For many applications it's enough to use data from July 2023 onward, so in this presentation we'll focus on the current report.      
-
----
-
-_Live demonstration of current website activity report_
-
-notes: Load the report, step through each of the sheets in order, find a question for each
-
-- About this report
-- Overview
-	- For the main UBC Library property, this is the only place to get the big picture for the entire UBCV Library website (but excludes UBCO).
-	- Filter to 2024, exclude may (Winter term 2)
-	- Show summary
-	- Change to sessions
-	- Notice that engagement rate is 56%, and that 5% of sessions are from US visitors
-	- Limit to non-UBC LigGuides source
-	- This subset of the activity is different. Engagement rate is higher (62% instead of 56) and the percentage and US visitors account for 21% of views, not 5%. We'd have to investigate more closely to know for sure, but this is likely because of LibGuides at US institutions linked UBC Library web pages.
-- Searches
-	- When a URL includes a search term - like what you see in the URL of search results pages - Google Analtyics records the term and counts the 'search' event. 
-	- We can limit to searches run on just part of the Library site, identified by a hostname. The top line here represents searches at resources.library.ubc.ca. Filter to resource page searches.
-	- expand the list of search terms to show grouping
-	- search for 'date' to show 'uptodate', an indication that users are looking for a point-of-care medicine platform we don't have. It doesn't mean we should buy it, but perhaps there's a way to redirect these users to DynaMed, a similar platform that we _do_ subscribe to.
-	- Remove 'date' search term
-- Search terms
-	- switch to cloud
-	- this is another view of the research guides search terms
-	- note that there's a filter for average searches per month to prevent the display from getting too cluttered with lesser-run searches. You might need to adjust this depending on other filter settings.
-- Sessions
-	- switch to Sessions tab. This dashboard (and many of the others) provides a more detailed look at other smaller properties. 
-	- the date filter applies to the entire report, so this is pre-filtered to show Jan-April 2024. 
-	- show the property name filter. Here you can choose the website you want to view. Change it to Asian Library. Again not surprisingly, the Asian Library has a higher percentage of international visits. On the UBC Library website overall, 82% of sessions are from users in Canada, but that's only 70% for the Asian Library website. 
-	- Other graphs on this website are familiar from the overview tab 
-- Page views
-	- when branches are reviewing their websites they sometimes want to know which pages get the most traffic, or how much activity is associated with certain pages. The Page views tab can answer these questions.
-	- Switch to techserv.library.ubc.ca
-- 404 Page
-	- Not a web crawler, but can help spot when users are repeatedly pointed to page that appears to be on a UBC site, but doesn't exist - or doesn't exist anymore.
-- Properties and Pages
-	- An administrative page that lists all the properties in the report along with counts of visited pages in each domain
-
-
----
-
-### Workflow: Gate counts
-
-Workflow emphasizes long history, various collection formats, library closures, inconsistencies in reporting. How to give context and use responsible. Importance of normalization. Data integrity.
-
-notes: Meghan
 ---
 
 	
