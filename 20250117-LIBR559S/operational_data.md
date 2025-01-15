@@ -96,10 +96,28 @@ To help illustrate we'll share two scenarios that involve operational data repor
 ---
 <!-- .slide: data-background="cornsilk" -->
 ### Scenario 1
-Placeholder for descriptive title or phrase 
+### Collections budget & data
 
-notes: _Meghan to present scenario related to collections budget or spending_
-a scenario where a library employee (GAA?) is faced with a large manual transcribing job, with data that's already available. We can provide a spreadsheet, they'd have to web scrape.
+notes: This is a simplified hypothetical example of managing collection budget spending, based on a real scenario in a top Canadian academic library, not naming any names. Imagine you are in a librarian role which includes the responsibility for selecting and purchasing collection materials: ebooks, print books, journal subscriptions, etc. 
+
+---
+### Collections budget & data
+![Suballocations](media/scenario1-1-bg.png)
+
+notes: A specific amount of money is allocated for these purchases. Seems simple enough?
+
+---
+
+### Collections budget & data
+![Suballocations](media/scenario1-2-bg.png)
+
+notes: Data lives within multiple systems: vendor and publisher platforms, the ILS or LMP (library management platform), and the university's financial systems. The fund allocation for your purchases is actually shared by everyone on your team, each purchasing for multiple subject areas or languages or formats. The fund balances live in the ILS; with other expenditure data in the financial systems; but you create and view your selections and orders in the vendor system, where the fund names and codes are mapped to but not the same as the ILS. You can't tell how much your colleagues have spent already, or on what. How do you manage this spending? ... Some people might keep their own spreadsheets in which they manually transcribe orders and costs and keep track of the math, perhaps collaborating with the rest of their team. It's not ideal: invoiced costs sometimes differ from order prices, there's currency exchange, other charges. It's a lot of manual accounting and trust in a uniform process across many individuals.
+
+---
+### Collections budget & data
+![Suballocations](media/scenario1-3-bg.png)
+
+notes: I can help. Luckily, we have direct access to the ILS and financial databases. Working with the selectors (and their head/manager) we create a spreadsheet dividing up the allocated money into buckets managed by each member of the team, called sub-allocations. I pull all of that data together in a single Tableau report, which updates auotmatically on a daily schedule, so that each sub-allocation can be tracked by you, the selectors. Tableau reporting also allows managers, branch heads, AULs, and finance staff to monitor spending in other ways: print or e, government or endowment funded, tax brackets, shipping, currency of purchase, and so on.
 
 ---
 <!-- .slide: data-background="cornsilk" -->
@@ -125,7 +143,7 @@ At least some slides in this section could have prompts for student engagement, 
 - Familiar with technology and tools
 - Help others understand what's possible
 
-notes: The Library data team acts as a bridge between library operations/employees and the data.
+notes: The Library data team acts as a bridge between library operations/employees and the data. 
 
 ---
 
@@ -137,9 +155,14 @@ Could we use this as a bridge to introduce our Tableau setup? E.g. everyone has 
 
 ---
 
-### Data integrity, cleanup, providing context
+### Managing data
 
-notes: Meghan
+- Data integrity and cleanup
+- Storage and access
+- Methods and systems change over time
+- Description, communication
+
+notes: Data can be quantitative, qualitative, structured or unstructured. Data integrity: is data good, complete, accurate, consistent? Who created it, how has it managed over time, how well does it represent the real world? Can we improve it by correcting errors, standardizing and normalizing, filling in gaps? The context of longitudinal data is of note - libraries do a lot of year-over-year analysis, and we have datasets that go back decades. Data collection methods, analysis and management vary considerably when comparing data from 2005,to 2015, to 2025. Documentation is very important, and often challenging.
 
 ---
 
@@ -204,10 +227,35 @@ notes: here's an example of one of the Tableau dashboards. This one shows an ove
 
 <!-- .slide: data-background="cornsilk" -->
 ### Workflow 2
-Compiling gate counts
+### Gate Counts
 
-notes: _Meghan to present this. Workflow emphasizes long history, various collection formats, library closures, inconsistencies in reporting. How to give context and use responsible. Importance of normalization. Data integrity._
+notes: _Meghan to present this. Workflow emphasizes long history, various collection formats, library closures, inconsistencies in reporting. How to give context and use responsible. Importance of normalization. Data integrity._ "Gate count" is a standardized definition set by ARL: "the number of persons who physically enter the library in a year." This statistic is included in the annual Report to the Senate, as well as many annual statistical surveys administered by academic library organizations such as ARL, CARL, CPSLD, and others. 
 
 ---
 
+### Gate Counts
+![Gate count workflow](media/workflow2-1-bg.png)
 
+notes: At UBC Library, we collect daily counts of patrons entering the branches as recorded by electronic gates at entrances. This usually requires noting the number on the electronic counter before the library opens and at the end of the day after closing, at a minimum. The actual gates have different manufacturers depending on when they were installed; some count entrances and exits, some exits only. Their counters have digit limits and reset after a certain number, e.g. 100,000. The data can be used to inform decisions on desk staffing, open hours, and other public services. Seems simple enough? Of course not...
+
+
+---
+
+### Gate Counts
+![Gate count workflow](media/workflow2-2-bg.png)
+
+notes: Surprise: this is _still_ an oversimplified representation of managing gate count data. Multiple library branches, some of which have no gates, some one, some multiple; some count twice per day, some multiple times per day, and there can be gaps; open hours are different for each branch, term, year. All of the variables change over each year, each term, and even day-to-day depending on staffing practices or any interruptions to regular routines. The timeline represents a small selection of factors that help provide context to the data: methods varying from recording and calculating by hand to automatic collection. Even with LibInsight, our online platform, most people probably jot down numbers on paper and/or use a calculator to get the count from the physical gate counter screen to the digital record. You might think having the gates automatically load data into a database would be preferable; there are pros and cons: it's more expensive, a separate system/vendor/software, and the database exports canned reports in one format that can't be edited.
+
+---
+
+### Gate Counts
+![Gate count workflow](media/workflow2-3-bg.png)
+
+notes: When we migrated to LibInsight, we worked on big project to clean, merge, reshape and analyze the gate count data from the past ten or so years, most of which came from spreadsheets manually maintained by staff. This historical data is then unioned with current data we extract out of LibInsight via API (which also gets archived annually). I've also brought in Open Hours data, which lives in a database managed by Library IT and updated by staff. The Tableau report is accessible to all staff online and updates automatically. We use this for the core purpose of getting the single ARL stat of "how many people visit the library in a year" as well as vizualizations, access to raw data, and detailed, granular analysis of all fields: e.g. average gate count on weekdays vs. weekends, or visits per hour in a year.
+
+---
+
+### Gate Counts
+![Gate count workflow](media/tableau-gate-count-by-year.png)
+
+notes: Here's one of the dashboards from the Tableau report. This shows gate count, hours open, and visits per open hour in 2023 and 2024. Think about meaning and context: what does it mean for a branch to be busy? Can you say one branch is busier than another, or that visits have increased from one year to the next? If you have a similar number of visitors in 2023 and 2024, but in 2024 the open hours were reduced signficantly, we would see a significant increase in "visits per open hour" (though little to no change to the total number of visitors in the year). This is an example of normalizing to a common denominator to allow meaningful comparisons and analysis, and help inform planning and decision-making like "should we stay open until 6pm or 9pm"?
