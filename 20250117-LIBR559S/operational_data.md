@@ -39,7 +39,7 @@ notes: You're in an RDM class that focuses on data generated in the course of re
 - generates reports for Library employees <!-- .element: class="fragment" -->
 - compiles data for statistical surveys <!-- .element: class="fragment" -->
 - manages operational data collection <!-- .element: class="fragment" -->
-- maintais data reporting platforms <!-- .element: class="fragment" -->
+- maintains data reporting platforms <!-- .element: class="fragment" -->
 
 notes: That amounts to a lot of data coming from many systems. At UBC Library, the Library Data Team is responsible for collecting and providing access to library operational data, as well as for generating reports and completing statistical surveys. Currently the Library Data Team consists of just Meghan (full time) and me (half time). I'm proud of what we're able to accomplish with just one and a half positions. _Click through bullet points_. Embedded in these tasks are many others related to maintenance, documentation, training, and workflow development.
 
@@ -149,7 +149,7 @@ notes:
 
 ---
 
-### Preference for disagregated data
+### Preference for disaggregated data
 
 notes:
 
