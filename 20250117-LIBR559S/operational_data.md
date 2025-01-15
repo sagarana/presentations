@@ -162,7 +162,7 @@ Could we use this as a bridge to introduce our Tableau setup? E.g. everyone has 
 - Methods and systems change over time
 - Description, communication
 
-notes: Data can be quantitative, qualitative, structured or unstructured. Data integrity: is data good, complete, accurate, consistent? Who created it, how has it managed over time, how well does it represent the real world? Can we improve it by correcting errors, standardizing and normalizing, filling in gaps? The context of longitudinal data is of note - libraries do a lot of year-over-year analysis, and we have datasets that go back decades. Data collection methods, analysis and management vary considerably when comparing data from 2005,to 2015, to 2025. Documentation is very important, and often challenging.
+notes: Data can be quantitative, qualitative, structured or unstructured. Data integrity: is data good, complete, accurate, consistent? Who created it, how has it managed over time, how well does it represent the real world? How easily or meaningfully can it be accessed and analyzed? Can we improve it by correcting errors, standardizing and normalizing, filling in gaps, reshaping? The context of longitudinal data is of note - libraries do a lot of year-over-year analysis, and we have datasets that go back decades. Data collection methods, analysis and management vary considerably when comparing data from 2005,to 2015, to 2025. Documentation is very important, and often challenging.
 
 ---
 
@@ -229,7 +229,7 @@ notes: here's an example of one of the Tableau dashboards. This one shows an ove
 ### Workflow 2
 ### Gate Counts
 
-notes: _Meghan to present this. Workflow emphasizes long history, various collection formats, library closures, inconsistencies in reporting. How to give context and use responsible. Importance of normalization. Data integrity._ "Gate count" is a standardized definition set by ARL: "the number of persons who physically enter the library in a year." This statistic is included in the annual Report to the Senate, as well as many annual statistical surveys administered by academic library organizations such as ARL, CARL, CPSLD, and others. 
+notes: "Gate count" is a standardized definition set by ARL: "the number of persons who physically enter the library in a year." This statistic is included in the annual Report to the Senate, as well as many annual statistical surveys administered by academic library organizations such as ARL, CARL, CPSLD, and others. 
 
 ---
 
@@ -251,7 +251,7 @@ notes: Surprise: this is _still_ an oversimplified representation of managing ga
 ### Gate Counts
 ![Gate count workflow](media/workflow2-3-bg.png)
 
-notes: When we migrated to LibInsight, we worked on big project to clean, merge, reshape and analyze the gate count data from the past ten or so years, most of which came from spreadsheets manually maintained by staff. This historical data is then unioned with current data we extract out of LibInsight via API (which also gets archived annually). I've also brought in Open Hours data, which lives in a database managed by Library IT and updated by staff. The Tableau report is accessible to all staff online and updates automatically. We use this for the core purpose of getting the single ARL stat of "how many people visit the library in a year" as well as vizualizations, access to raw data, and detailed, granular analysis of all fields: e.g. average gate count on weekdays vs. weekends, or visits per hour in a year.
+notes: When we migrated to LibInsight, we worked on big project to clean, merge, reshape and analyze the gate count data from the past ten or so years, most of which came from spreadsheets manually maintained by staff. Cleaning was important: checking each dataset for major outliers, interpolating and correcting typos, adjusting or annotating batch entries so that reports don't look like 4,000 people visited our smallest, quietest branch on a single day in July 2011. This historical data is then unioned with current, active data we extract out of LibInsight via API (which also gets archived annually). I've also brought in Open Hours data, which lives in a database managed by Library IT and updated by staff. The Tableau report is accessible to all staff online and updates automatically. We use this for the core purpose of getting the single ARL stat of "how many people visit the library in a year" as well as vizualizations, access to raw data, and detailed, granular analysis of all fields: e.g. average gate count on weekdays vs. weekends, or visits per hour in a year.
 
 ---
 
