@@ -1,14 +1,16 @@
+<!-- .slide: data-transition="none-out" -->
+
 ## UBC Library operational data 
 ### Overview for LIBR559S 
 \
 \
-Jeremy Buhler, _Data Librarian_  
-Meghan Waitt, _Library Data Analyst_
+Jeremy Buhler, _Data Librarian_   
+Meghan Waitt, _Library Data Analyst_  
 
 notes: Introductions 
 
 ---
-<!-- .slide: data-background="lightblue" -->
+<!-- .slide: data-background="lightblue" data-transition="none-in slide-out" -->
 ### What we'll cover
 
 - Types of operational data in academic libraries 
@@ -16,22 +18,20 @@ notes: Introductions
 - Guiding principles for handling data 
 - Tools and skills that make this possible
 
-notes: In the next 40 minutes or so, Meghan and I want to provide a non-technical introduction to (read list).
-I encourage you to make this more interesting for everyone by engaging with us: feel free to interrupt us along the way with questions or observations.
+notes: In the next 40 minutes or so we'll provide a non-technical introduction to these topics. We'll talk about the kind of operational data you're likely to find in academic libraries, and about the potential value of this data for planning library services or for improving day-to-day workflows. We'll also talk about some of the principles that guide our work. We'll close by sharing two examples from UBC Library of operational data workflows: how we draw often unruly data from various systems to make it meaningful and useful to our colleagues. Those examples will give you an idea of the tools and skills that are helpful in doing this kind of work - many of which are also applicable in Research Data Management. 
 
----
-
-<!-- .slide: data-background="cornsilk" -->
-_Tableau report demonstration_
-
-notes: _quick show-and-tell to get their interest early? Otherwise we won't show Tableau until much later_
+As we go though the presentation please stop us if you have questions or observations: we'll leave time for discussion at the end, but your voices are welcome throughout.  
 
 ---
 ### What do we mean by _operational data_?
 
 Data generated in the course of library operations or collected to support operational needs <!-- .element: class="fragment" -->
 
-notes: You're in an RDM class that focuses on data generated in the course of research and that is often managed by libraries. Unlike RDM, our work is limited to _operational data_ which has a different source and purpose. Here's a working definition of operational data (click to show, then read). Our data work is more like business analysis or operational support, though many of the skills and values are the same. 
+notes: The focus of Research Data Management is data generated in the course of research, which is often managed by libraries. Unlike RDM, our work is limited to _operational data_ which has a different source and purpose. Here's a working definition of operational data: 
+
+    "Data generated in the course of library operations or collected to support operational needs"
+
+Our work is more closely related to assessment or business intelligence or operational support than it is to RDM, though many of the skills and values are shared. 
 
 ---
 ### The _Library Data Team_
@@ -41,7 +41,7 @@ notes: You're in an RDM class that focuses on data generated in the course of re
 - manages operational data collection <!-- .element: class="fragment" -->
 - maintains data reporting platforms <!-- .element: class="fragment" -->
 
-notes: That amounts to a lot of data coming from many systems. At UBC Library, the Library Data Team is responsible for collecting and providing access to library operational data, as well as for generating reports and completing statistical surveys. Currently the Library Data Team consists of just Meghan (full time) and me (half time). I'm proud of what we're able to accomplish with just one and a half positions. _Click through bullet points_. Embedded in these tasks are many others related to maintenance, documentation, training, and workflow development.
+notes: When I say "we" or talk about "our" work, I'm referring to the _Library Data Team_. It's a small team - currently just part of my time and all of Meghan's - but our work is broad in scope. To put it in a sentence, wwe make data about UBC Library operations accessible (and intelligible) to our colleagues across the library. This involves generating reports, compiling data for statistical surveys, managing data gathering, and making sure our data gathering and reporting platforms are configured well and running smoothly. Accomplishing these tasks well in a large, multi-branch library also involves a lot of documentation and training. People come and go, platforms change, operational needs change, and we try to provide enough information so our colleagues can use data responsibly and make good decisions. I'm proud of what our team has been able to accomplish.
 
 ---
 
@@ -51,49 +51,105 @@ notes: That amounts to a lot of data coming from many systems. At UBC Library, t
 
 <https://about.library.ubc.ca/news/publications/senate-report-2023-2024/> <!-- .element: class="small" -->
 
-notes: at the most basic level, operational data compiled by the data team makes it into statistical surveys that allow for comparison among libraries, as well as reports like this UBC Library Annual Report to Senate. Behind each of those data points is a workflow - in some cases quite complex - to collect the relevant data from across the library system.
-
-I refer to this kind of use as _basic_ because it's relatively static one-way reporting. It's important to communicate what we do, but a more in-depth and meaningful application of operation data - in my view - is to use it for assessing and planning services, and to improve internal workflows.  
+notes: At a basic level, operational data compiled by the Library Data Team is reported in annual statistical surveys administered by library associations like ARL, CARL, and ACRL. These surveys allow for comparison among libraries and may be used by administrators when making the case for more funding relative to peer institutions, for example. These measures also appear in reports like the Annual Report to Senate shown here. I suspect you'll agree that these system-wide totals aren't very inspiring or engaging, but behind each total are sources of disaggregated data with much more nuance and potential if approached creatively, and with a genuine interest in understanding and improving our activities.
 
 ---
-<!-- .slide: data-background="lightblue" -->
-## Types of operational data
+<!-- .slide: data-background="cornsilk" data-transition="slide-in none-out" -->
+Tableau report demo
+
+<https://reports.im.it.ubc.ca/> <!-- .element: class="fragment" data-fragment-index="1" -->  
+_CWL login, UBC Library employees only_ <!-- .element: class="fragment" data-fragment-index="1" -->
+
+notes: The potential of at least _some_ of this disaggregated data finds expression in the interactive dashboards that the Library Data Team prepares using Tableau software. These online dashboards can update automatically from source data in databases or files, and they're available to all UBC Library employees with CWL credentials. One of the reports that might interest you shows how often files are viewed or downloaded in Abacus, UBC Library's data repository. Abacus is actually an instance of the Dataverse platform - the same back-end that runs Borealis, Canada's national RDM platform. The user interface for Borealis and Abacus provide few options for understanding overall activity in the repository. To create this report I run a SQL query on the Abacus database so I can get detailed data, then group and format it as needed. This is especially useful in our case because Abacus is shared by four instituitons. Not only can we see which items were downloaded most often, but we can limit activity to users from a particular institution.
+
+---
+<!-- .slide: data-background="lightblue" data-transition="none-in slide-out" -->
+## Streams of operational data
+
+notes: how does opearational data get generated or collected? To simplify it somewhat, we can thing of two data streams.
 
 ---
 
-- generated automatically by library systems 
-- collected/compiled by library employees <!-- .element: class="fragment" -->
-
-
-notes: broadly speaking, most operational data comes from two channels. _click to show_: a lot of the operational data is generated automatically by library systems, accounts, and platforms. Think about the Library Management Platform (LPM), or the older term Integrated Management System (ILS). This is the system at the heart of day-to-day library operations, that tracks the collection, acquisitions, use, and so on. Thousands of transactions are recorded per day and depending on the system might be available to library employees in a reporting interface, by querying a database directly, or through an API.
-
-The other method is my collecting and compiling the data ourselves. Examples include gate counts, patron questions. UBC Library has online tools like SpringShare's LibInsight platform to help with data collection, but that information is entered by library employees.
+- Generated automatically by library systems  
+- Collected/compiled by library employees  
 
 ---
+
 <!-- .slide: data-background="cornsilk" -->
-### Think of examples
-_data generated automatically_  <!-- .element: class="fragment semi-fade-out" data-fragment-index="1" -->
+### Generated automatically
 
-_data compiled by employees_ <!-- .element: class="fragment" data-fragment-index="1" -->
+<div class="fragment">
+Collections metadata<br/>
+Circulation<br/>
+Fines<br/>
+Computer workstation use<br/>
+Website visits<br/>
+Searches<br/>
+Gate count(hybrid)<br/>
+File downloads<br/>
+</div>
 
-notes: _Prompt for responses from the group for each channel. Put columns on board, then fill gaps if necessary_ 
+notes: The first is data that is generated automatically by various library systems in the course of day-to-day activities. Can you think of examples?
 
 ---
-<!-- .slide: data-background="lightblue" -->
+
+<!-- .slide: data-background="cornsilk" -->
+### Collected by library employees
+
+<div class="fragment">
+Patron questions <br/>
+Group presentations<br/>
+Gate count (hybrid)<br/>
+Furniture/seat counts<br/>
+Head counts<br/>
+Original cataloguing<br/>
+In house use<br/>
+Project activity<br/> 
+</div>
+
+notes: The second is data collected or compiled by library employees - sometimes to enhance or complement data collected in library systems, but often because there's no practical way to automate data collection. Again, think of examples.
+
+The Library Data Team works with both streams. In the case of the second, we're usually responsible for establishing workflows and guidelines, and coordinating data collection for the entire UBC Library system. An example that some of you may be familiar with is collecting data about patron questions. Interactions with patrons at help desks or online are tracked in software called LibInsight, which the Library Data Team is responsible for.
+
+---
+<!-- .slide: data-background="lightblue" data-transition="none-in slide-out" -->
 ## The value of operational data
 
-notes: _section title slide, transition from 'types' to 'value' of data_. So we've listed many kinds of data. What is it actually good for? Why should anyone care about it?
+notes: So why does this matter? What value does a library get from collecting and managing this kind of data?  
 
 ---
+<!-- .slide: data-transition="slide-in none-out" -->
+### Common drivers
 
-- external reporting
-- internal planning, workflows, assessment
+statistical surveys  
 
-notes: _read bullets, after each describe in a few sentences. In this new section emphasis on why this work is important, who it benefits, etc._ 
+planning, workflows, assessment <!-- .element: style="color: white" -->
+
+notes: One common driver for collecting data is statistics reporting. For example, the Association of Research Libraries (ARL) has annual statistical surveys that ask for information about library collections, expenditures, staffing, salaries, interactions with patrons, and so on. In ARL's words, "Libraries use the data to make evidence-based decisions for operations, programs and services, describe their operations and budget expenditures, and demonstrate how resources are used for the benefit of the communties they serve." (<https://www.arl.org/category/our-priorities/data-analytics/arl-statistics-and-salary-surveys/>). Because the survey questions are relatively stable from year to year, we end up with longitudinal data that shows trends and can be useful in planning and advocacy. 
+
+---
+<!-- .slide: data-transition="none" -->
+
+#### UBC Library student employee FTE: Vancouver locations
+![Student employee FTE](media/student_employee_fte.png)
+
+notes: Here's one example showing how the number of student employees UBC Library's Vancouver branches changed in the last decade. This is a static screenshot, but like the shelf list I showed earlier there are filters to select the desired employee groups, years, and campus. The numbers on this graph are FTE, or full time equivalent, where one FTE represents the working hours of a full time employee. We see a big drop during COVID lockdowns, when the number of student employee hours was the equivalent of 6.6 full time positions. That number has increased somewhat since then, but it's nowhere near what it was before COVID. Data like this isn't just available to administrators in charge of funcing - anyone who works at UBC Library can explore the Tableau reports for their own needs or curiosity.       
 
 To help illustrate we'll share two scenarios that involve operational data reporting. In each scenario, emphasize value of data for time-saving, reducing errors, better decision making, etc. _Each example could include images to illustrate how we supported them: e.g. screenshot of a Tableau report, illustration of a data workflow._
 
 ---
+
+<!-- .slide: data-transition="fade-in slide-out" -->
+### Common drivers
+
+statistical surveys <!-- .element: class="fragment semi-fade-out" data-fragment-index="1" --> 
+
+planning, assessment, workflows  <!-- .element: class="fragment" data-fragment-index="1" -->
+
+notes: Statistical surveys are an _external_ driver for collecting operational data, even though the data is also valuable internally. The second set of drivers listed here are more internal. The operational data we provide supports a wide range of planning and assessment needs. In this context we often hear about the value of data for supporting _evidence-based_ decisions. But something that arguably gets less attention is the value of data access for improving routine workflows in the library. Purpose-built reports that provide data when it's needed, in the appropriate format, can save so much time across a large organization. This kind of data intervention usually has a lower profile, but I believe that the incremental improvements our data support provides is actually our most valuable contribution. To illustrate we have two scenarios.  
+
+---
+
 <!-- .slide: data-background="cornsilk" -->
 ### Scenario 1
 ### Collections budget & data
@@ -122,15 +178,41 @@ notes: I can help. Luckily, we have direct access to the ILS and financial datab
 ---
 <!-- .slide: data-background="cornsilk" -->
 ### Scenario 2
-Placeholder for descriptive title or phrase 
+### Fiscal year financial reporting
 
-notes: _Jeremy to present scenario where a manual transcribing job could be eliminated or simplified_ 
+notes: On to Scenario #2. I won't pretend to be as discreet as Meghan, this one is based on a recent example from UBC Library that involves an annual report about the library's collections spending. 
+
+---
+
+### Fiscal year financial reporting
+
+![workflow 1](media/scenario-2-0.png)
+
+notes: It's a high profile report used by library administrators and for year-end expenditure reporting, so getting it right matters. The source data comes from an in-house database that has limited reporting options. What path does it follow to the report?  
+
+---
+
+### Fiscal year financial reporting
+
+![workflow 2](media/scenario-2-1.png)
+
+notes: Until recently, all the steps between the source database and the final report involved direct work by library employee. Because reporting options were limited, this person had to export totals for each fund, then group the funds and calculate totals, then create the report. The process was not automated and each step (transcribing, grouping, tallying) introduced the risk of error. To say nothing of how much time the process took. So where are we now? 
+
+---
+
+### Fiscal year financial reporting
+
+![workflow 1](media/scenario-2-2.png)
+
+notes: our tools aren't magic, there's still some manual work involved, but the new approach saves time, reduces the chance of error, and establishes a documented and reproducible process. The manual work is only to create a key that assigns funds to groups (this stays mostly the same each year, updates are only necessary for newly added funds). The rest is handled by Tableau, which is configured to draw directly from the database (bypassing limitations in the export options), group the data using the key, and produce a report with total expenditures by group.
+
+Like I said: this isn't flashy stuff but if you're the person copy/pasting values from one source to another, interventions like this can really lighten the load. Part of the challenge is to help people recognize when a better way might be possible, and contact us to find explore the options. 
 
 ---
 <!-- .slide: data-background="lightblue" -->
 ## Guiding principles for handling data
 
-notes: _Proposed new section to highlight values that inform our work (section also added to outline slide at beginning). This is a good place to talk about our training and documentation efforts, the work it takes to present data responsibly, being available to all library employees, the importance of normalization, the preference for direct access to disagregated data (because out-of-the-box eventually comes up short), etc._
+notes: In this section we want ot highlight a few values that inform our work. Some of these principles are data specific and have to do with things like data integrity and data storage. Other This is a good place to talk about our training and documentation efforts, the work it takes to present data responsibly, being available to all library employees, the importance of normalization, the preference for direct access to disagregated data (because out-of-the-box eventually comes up short), etc._
 
 At least some slides in this section could have prompts for student engagement, possibly references to the way that would also apply in RDM (e.g. describing data). I suggest we use our Tableau setup as a recurring thread through this section.
 
@@ -147,11 +229,11 @@ notes: The Library data team acts as a bridge between library operations/employe
 
 ---
 
-### Available to all library employees
+### Available, intelligible
+- Any library employee may request our support
+- Published reports have explanatory notes <!-- .element: class="fragment" -->
 
-notes: _stress this isn't an admin unit, it's meant to be integrated into work at all levels, wherever it is helpful._
-
-Could we use this as a bridge to introduce our Tableau setup? E.g. everyone has accounts, unless reports are confidential anyone can browse them, etc. If so, the subsequent slides in this section could, where applicable, show a Tableau report that expresses that value. For example: dashboard tabs with instructions; data that's normalized before being presented; ability to export underlying data; 
+notes:
 
 ---
 
@@ -165,19 +247,6 @@ Could we use this as a bridge to introduce our Tableau setup? E.g. everyone has 
 notes: Data can be quantitative, qualitative, structured or unstructured. Data integrity: is data good, complete, accurate, consistent? Who created it, how has it managed over time, how well does it represent the real world? How easily or meaningfully can it be accessed and analyzed? Can we improve it by correcting errors, standardizing and normalizing, filling in gaps, reshaping? The context of longitudinal data is of note - libraries do a lot of year-over-year analysis, and we have datasets that go back decades. Data collection methods, analysis and management vary considerably when comparing data from 2005,to 2015, to 2025. Documentation is very important, and often challenging.
 
 ---
-
-### Data literacy/education
-
-notes:
-
----
-
-### Preference for disaggregated data
-
-notes:
-
----
-
 <!-- .slide: data-background="lightblue" -->
 ## Operational data workflows
 
@@ -186,17 +255,21 @@ notes: _describe two operational data workflows to help students understand the 
 ---
 <!-- .slide: data-background="cornsilk" -->
 ### Workflow 1
-Improving access to Google Analytics data about website use
+### Cloud -> TSV -> Tableau
 
-notes: highlight the API -> TSV -> Tableau (Google Analytics)
+notes: 
 
 ---
 <!-- .slide: data-transition="slide-in none-out" -->
+### Google Analytics via API
+
 ![GA data flow](media/ga_data_flow_1.png)
 
 notes: 
 
 ---
+
+### Google Analytics via API
 
 <!-- .slide: data-transition="none-in zoom-out" -->
 ![GA data flow](media/ga_data_flow_2.png)
@@ -259,3 +332,8 @@ notes: When we migrated to LibInsight, we worked on big project to clean, merge,
 ![Gate count workflow](media/tableau-gate-count-by-year.png)
 
 notes: Here's one of the dashboards from the Tableau report. This shows gate count, hours open, and visits per open hour in 2023 and 2024. Think about meaning and context: what does it mean for a branch to be busy? Can you say one branch is busier than another, or that visits have increased from one year to the next? If you have a similar number of visitors in 2023 and 2024, but in 2024 the open hours were reduced signficantly, we would see a significant increase in "visits per open hour" (though little to no change to the total number of visitors in the year). This is an example of normalizing to a common denominator to allow meaningful comparisons and analysis, and help inform planning and decision-making like "should we stay open until 6pm or 9pm"?
+
+---
+
+## Questions?
+#### _and thank you_
