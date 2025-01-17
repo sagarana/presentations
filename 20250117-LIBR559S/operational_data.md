@@ -41,7 +41,7 @@ Our work is more closely related to assessment or business intelligence or opera
 - manages operational data collection <!-- .element: class="fragment" -->
 - maintains data reporting platforms <!-- .element: class="fragment" -->
 
-notes: When I say "we" or talk about "our" work, I'm referring to the _Library Data Team_. It's a small team - currently just part of my time and all of Meghan's - but our work is broad in scope. To put it in a sentence, wwe make data about UBC Library operations accessible (and intelligible) to our colleagues across the library. This involves generating reports, compiling data for statistical surveys, managing data gathering, and making sure our data gathering and reporting platforms are configured well and running smoothly. Accomplishing these tasks well in a large, multi-branch library also involves a lot of documentation and training. People come and go, platforms change, operational needs change, and we try to provide enough information so our colleagues can use data responsibly and make good decisions. I'm proud of what our team has been able to accomplish.
+notes: When I say "we" or talk about "our" work, I'm referring to the _Library Data Team_. It's a small team - currently just part of my time and all of Meghan's - but our work is broad in scope. To put it in a sentence, we make data about UBC Library operations accessible (and intelligible) to our colleagues across the library. This involves generating reports, compiling data for statistical surveys, managing data gathering, and making sure our data gathering and reporting platforms are configured well and running smoothly. Accomplishing these tasks well in a large, multi-branch library also involves a lot of documentation and training. People come and go, platforms change, operational needs change, and we try to provide enough information so our colleagues can use data responsibly and make good decisions. I'm proud of what our team has been able to accomplish.
 
 ---
 
@@ -73,6 +73,11 @@ notes: how does opearational data get generated or collected? To simplify it som
 - Generated automatically by library systems  
 - Collected/compiled by library employees  
 
+
+notes: The first stream is data that is generated automatically by various library systems in the course of day-to-day activities. 
+
+The second is data collected or compiled by library employees - sometimes to enhance or complement data collected in library systems, but often because there's no practical way to automate data collection. 
+
 ---
 
 <!-- .slide: data-background="cornsilk" -->
@@ -89,7 +94,6 @@ Gate count(hybrid)<br/>
 File downloads<br/>
 </div>
 
-notes: The first is data that is generated automatically by various library systems in the course of day-to-day activities. Can you think of examples?
 
 ---
 
@@ -101,15 +105,15 @@ Patron questions <br/>
 Group presentations<br/>
 Gate count (hybrid)<br/>
 Furniture/seat counts<br/>
+Surveys<br/>
 Head counts<br/>
 Original cataloguing<br/>
 In house use<br/>
 Project activity<br/> 
 </div>
 
-notes: The second is data collected or compiled by library employees - sometimes to enhance or complement data collected in library systems, but often because there's no practical way to automate data collection. Again, think of examples.
 
-The Library Data Team works with both streams. In the case of the second, we're usually responsible for establishing workflows and guidelines, and coordinating data collection for the entire UBC Library system. An example that some of you may be familiar with is collecting data about patron questions. Interactions with patrons at help desks or online are tracked in software called LibInsight, which the Library Data Team is responsible for.
+notes: The Library Data Team works with both streams. In the case of the second, we're usually responsible for establishing workflows and guidelines, and coordinating data collection for the entire UBC Library system. An example that some of you may be familiar with is collecting data about patron questions. Interactions with patrons at help desks or online are tracked in software called LibInsight, which the Library Data Team is responsible for.
 
 ---
 <!-- .slide: data-background="lightblue" data-transition="none-in slide-out" -->
@@ -125,7 +129,11 @@ statistical surveys
 
 planning, workflows, assessment <!-- .element: style="color: white" -->
 
-notes: One common driver for collecting data is statistics reporting. For example, the Association of Research Libraries (ARL) has annual statistical surveys that ask for information about library collections, expenditures, staffing, salaries, interactions with patrons, and so on. In ARL's words, "Libraries use the data to make evidence-based decisions for operations, programs and services, describe their operations and budget expenditures, and demonstrate how resources are used for the benefit of the communties they serve." (<https://www.arl.org/category/our-priorities/data-analytics/arl-statistics-and-salary-surveys/>). Because the survey questions are relatively stable from year to year, we end up with longitudinal data that shows trends and can be useful in planning and advocacy. 
+notes: One common driver for collecting data is statistics reporting. For example, the Association of Research Libraries (ARL) has annual statistical surveys that ask for information about library collections, expenditures, staffing, salaries, interactions with patrons, and so on. In ARL's words:
+
+	"Libraries use the data to make evidence-based decisions for operations, programs and services, describe their operations and budget expenditures, and demonstrate how resources are used for the benefit of the communties they serve." (<https://www.arl.org/category/our-priorities/data-analytics/arl-statistics-and-salary-surveys/>). 
+
+Because the survey questions are relatively stable from year to year, we end up with longitudinal data that shows trends and can be useful in planning and advocacy. 
 
 ---
 <!-- .slide: data-transition="none" -->
@@ -133,9 +141,7 @@ notes: One common driver for collecting data is statistics reporting. For exampl
 #### UBC Library student employee FTE: Vancouver locations
 ![Student employee FTE](media/student_employee_fte.png)
 
-notes: Here's one example showing how the number of student employees UBC Library's Vancouver branches changed in the last decade. This is a static screenshot, but like the shelf list I showed earlier there are filters to select the desired employee groups, years, and campus. The numbers on this graph are FTE, or full time equivalent, where one FTE represents the working hours of a full time employee. We see a big drop during COVID lockdowns, when the number of student employee hours was the equivalent of 6.6 full time positions. That number has increased somewhat since then, but it's nowhere near what it was before COVID. Data like this isn't just available to administrators in charge of funcing - anyone who works at UBC Library can explore the Tableau reports for their own needs or curiosity.       
-
-To help illustrate we'll share two scenarios that involve operational data reporting. In each scenario, emphasize value of data for time-saving, reducing errors, better decision making, etc. _Each example could include images to illustrate how we supported them: e.g. screenshot of a Tableau report, illustration of a data workflow._
+notes: Here's one example showing how the number of student employees UBC Library's Vancouver branches changed in the last decade. This is a static screenshot, but like the shelf list I showed earlier there are filters to select the desired employee groups, years, and campus. The numbers on this graph are FTE, or full time equivalent, where one FTE represents the working hours of a full time employee. We see a big drop during COVID lockdowns, when the number of student employee hours was the equivalent of 6.6 full time positions. That number has increased somewhat since then, but it's nowhere near what it was before COVID. Data like this isn't just available to administrators in charge of funding - anyone who works at UBC Library can explore the Tableau reports for their own needs or curiosity.       
 
 ---
 
@@ -146,7 +152,7 @@ statistical surveys <!-- .element: class="fragment semi-fade-out" data-fragment-
 
 planning, assessment, workflows  <!-- .element: class="fragment" data-fragment-index="1" -->
 
-notes: Statistical surveys are an _external_ driver for collecting operational data, even though the data is also valuable internally. The second set of drivers listed here are more internal. The operational data we provide supports a wide range of planning and assessment needs. In this context we often hear about the value of data for supporting _evidence-based_ decisions. But something that arguably gets less attention is the value of data access for improving routine workflows in the library. Purpose-built reports that provide data when it's needed, in the appropriate format, can save so much time across a large organization. This kind of data intervention usually has a lower profile, but I believe that the incremental improvements our data support provides is actually our most valuable contribution. To illustrate we have two scenarios.  
+notes: Statistical surveys are an _external_ driver for collecting operational data, even though the data is also valuable internally. The second set of drivers listed here are more internal. The operational data we provide supports a wide range of planning and assessment needs. In this context we often hear about the value of data for supporting _evidence-based_ decisions. But something that arguably gets less attention is the value of data access for improving routine workflows in the library. Purpose-built reports that provide data when it's needed, in the appropriate format, can save so much time across a large organization. This kind of data intervention usually has a lower profile, but I believe that the incremental improvements our data support provides are actually our most valuable and sustained contributions. To illustrate we have two scenarios.  
 
 ---
 
@@ -196,7 +202,7 @@ notes: It's a high profile report used by library administrators and for year-en
 
 ![workflow 2](media/scenario-2-1.png)
 
-notes: Until recently, all the steps between the source database and the final report involved direct work by library employee. Because reporting options were limited, this person had to export totals for each fund, then group the funds and calculate totals, then create the report. The process was not automated and each step (transcribing, grouping, tallying) introduced the risk of error. To say nothing of how much time the process took. So where are we now? 
+notes: Until recently, all the steps between the source database and the final report involved manual work. Because reporting options were limited, this person had to export totals for each fund, then group the funds and calculate totals, then create the report. The process was not automated and each step (transcribing, grouping, tallying) introduced the risk of error. To say nothing of how much time the process took. So where are we now? 
 
 ---
 
@@ -210,11 +216,10 @@ Like I said: this isn't flashy stuff but if you're the person copy/pasting value
 
 ---
 <!-- .slide: data-background="lightblue" -->
-## Guiding principles for handling data
+## Guiding principles 
 
-notes: In this section we want ot highlight a few values that inform our work. Some of these principles are data specific and have to do with things like data integrity and data storage. Other This is a good place to talk about our training and documentation efforts, the work it takes to present data responsibly, being available to all library employees, the importance of normalization, the preference for direct access to disagregated data (because out-of-the-box eventually comes up short), etc._
+notes: In this section we want to highlight a few values that inform our work. Some of these principles are data specific and have to do with things like data integrity and data storage. Others are more general principles about working with people, about the relationships we want to build with our colleagues across the library.  
 
-At least some slides in this section could have prompts for student engagement, possibly references to the way that would also apply in RDM (e.g. describing data). I suggest we use our Tableau setup as a recurring thread through this section.
 
 ---
 
@@ -225,15 +230,20 @@ At least some slides in this section could have prompts for student engagement, 
 - Familiar with technology and tools
 - Help others understand what's possible
 
-notes: The Library data team acts as a bridge between library operations/employees and the data. 
+notes: The Library data team acts as a facilitator: we're a bridge between library operations/employees and the data. Activities surrounding data can sometimes be perceived as technical, clinical, transactional. There are elements of this, for sure, but a big part of our work is being able to translate between the needs of a library colleague and the data infrastructure that might be able to support them. 
 
 ---
 
-### Available, intelligible
-- Any library employee may request our support
+### Available, intelligible, flexible
+- Any library employee may request our support <!-- .element: class="fragment" -->
 - Published reports have explanatory notes <!-- .element: class="fragment" -->
+- Ability to export underlying data <!-- .element: class="fragment" -->
 
-notes:
+notes: One guiding principle is that we make ourselves available to anyone. A library assistant is free to submit a request, it doesn't need to come through the branch head or any particular level of the hierarchy. We assume that people are communicating with their supervisors as appropriate on their end and try to make ourselves. I believe that this gives us access to some of those operational workflow problems that might not otherwise come to light.
+
+Part of being available also means being intelligible. We want our colleagues to become more nuanced and sophisticated data users, and we encourage learning and improve accessibility by including notes in many reports - explaining where the data's from, guiding them in using the report.
+
+Flexibility can mean many things, but here I highlight the flexibility that comes from being able to access the underlying, disaggregated data.
 
 ---
 
