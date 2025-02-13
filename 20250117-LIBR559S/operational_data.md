@@ -7,6 +7,8 @@
 Jeremy Buhler, _Data Librarian_   
 Meghan Waitt, _Library Data Analyst_  
 
+_press "s" to open popup with speaker notes_ <!-- .element: style="color:gray; size:0.5em" -->
+
 notes: Introductions 
 
 ---
