@@ -8,12 +8,6 @@
 	border-style: none;
 }
 
-body:after {
-content: url(http://gis.sites.olt.ubc.ca/files/2019/05/logo.png);
-position: fixed;
-bottom: .5em;
-left: 1.5em; 
-}
 
     .reveal h1,
     .reveal h2,
