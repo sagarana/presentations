@@ -6,13 +6,9 @@
 \
 Jeremy Buhler, _Data Librarian_   
 
-notes: slide styles 
-none	Switch backgrounds instantly
-fade	Cross fade — default for background transitions
-slide	Slide between backgrounds — default for slide transitions
-convex	Slide at a convex angle
-concave	Slide at a concave angle
-zoom
+notes: I've been reading an ethnography of the dream life of the Yanomami
+- recently started affecting my own dreams, with dream journaling. 
+- Much of the book is based on writings of Yanomami shaman Davi Kopenawa
 
 ---
 <!-- .slide: data-transition="none-in slide-out" -->
@@ -20,7 +16,7 @@ zoom
 ![kopenawa](media/kopenawa.png) 
 
 
-notes:
+notes: Here he is. As a shaman he has some deep know-how for dealing with disease, with sorcery - even counteracting oother shamans.
 
 
 ---
@@ -30,13 +26,15 @@ notes:
 
 "They say I'm the greatest shaman now, nobody does it better, maybe they're right."
 
-notes: "If we think of sorcery as a simplified term for [...] invisible maleficense - as with 'fake news' or, more to the point, the attribution of 'fake news' - then we can discern how a figure like Trump, buoyed up by the magic of the presidency ('In God We Trust'), finds his mojo."
+notes: But what happens if Trump is actually one step further than Kopenawa thinks: not the disease but a sorcerer in his own right? 
 
-"This multiplicity of stories destabilized me and the moorings that [...] I thought I required for sociological reckoning." (p36). "The 'shamanic' element in all of this lay in the clouds of uncertainty and rumor" (p37)
+- This is a still from an AI generate video you might have come across on Youtube: Trump visits Peru and goes on an Ayahuasca journey. Goofy as a video
+- But also reading this book.
+- Taussig writes  
 
-"For those who oppose this tooth and nail it seems that language and imagery fail us when we most need them, and do so spectacularly in a liberal, secular environment." (p40)
+"If we think of sorcery as a simplified term for [...] invisible maleficense - as with 'fake news' or, more to the point, the attribution of 'fake news' - then we can discern how a figure like Trump, buoyed up by the magic of the presidency ('In God We Trust'), finds his mojo." 
 
-We're unprotected, we don't know how to engage with this kind of sorcery.  
+"The 'shamanic' element in all of this lay in the clouds of uncertainty and rumor"
 
 
 ---
@@ -44,7 +42,11 @@ We're unprotected, we don't know how to engage with this kind of sorcery.
 
 __And then you are lost. He has eaten your soul.__ <!-- .element: class="fragment fade-in-then-out" -->
 
-notes: "Speaking rapid-fire with no spot for others to jump into the conversation, Mr. Trump makes everyone a co-conspirator to his preferred set of facts, or delusions. I have felt it - this president building with his words a web of alternative reality and busily wrapping it around all of us in the room... __And then you are lost. He has eaten your soul.__"
+notes: We're unprotected, we don't know how to engage with this kind of sorcery.  
+
+"For those who oppose this tooth and nail it seems that language and imagery fail us when we most need them, and do so spectacularly in a liberal, secular environment." (p40)
+
+Here's the ex director of the FBI: "Speaking rapid-fire with no spot for others to jump into the conversation, Mr. Trump makes everyone a co-conspirator to his preferred set of facts, or delusions. I have felt it - this president building with his words a web of alternative reality and busily wrapping it around all of us in the room... __And then you are lost. He has eaten your soul.__"
 
 conspiracy theories as parallel universes, like the worlds colliding in the description of shamanism from Taussig. Note about AI taught on this parallel material - our uneasiness with it.
 
@@ -53,9 +55,12 @@ conspiracy theories as parallel universes, like the worlds colliding in the desc
 
 Words, he said, are like animals. Cut the pages and let the animals free. <!-- .element: class="fragment"  -->
 
-notes: this is somewhat abstract, but we can also think of sorcery in terms of two characteristics: metamorphosis (the shaman turning into someone else to take care of something), and mimesis (the multiplication by mirroring, representation, imitation - but raised to the nth degree by reproduction in the online world.
+notes: 
 
-This quote is from burroughts. Let it go and see what happens. 
+- But how does this soul-eating sorcery work?
+-I've only read part of Taussig's book, but he describes in terms of two characteristics: metamorphosis (for example, the shaman turning into something else, or turning things into other things to take care of something), and mimesis (the multiplication by mirroring, representation, imitation - but raised to the nth degree by reproduction in the online world.
+
+This quote is from burroughs. Kick start the metaphorphosis and let loose those transformed animals, creatures, whatever they are
 
 ---
 <!-- .slide: data-background-video="media/capibara.mov"  data-transition="none-in slide-out" -->
@@ -66,19 +71,22 @@ This quote is from burroughts. Let it go and see what happens.
 
 <div class="fragment" style="opacity: 0.7; background-color:white; padding: 10px;">Copies chasing copies as in spirit worlds, changing their form and hence the rules of the game.</div> 
 
+notes: metamorphosis is the first characteristic, the second is mimesis: mirroring, multiplication, copies upon copies until we lose our footing in a fragmented multiverse.
+
 ---
 <!-- .slide: data-background-video="media/malkovich.mov"  data-transition="none-in slide-out" -->
 
 ![malkovich as agent cooper](media/malkovich_cooper.png) <!-- .element: class="fragment fade-in" -->
 
-notes: From Bergman "No form of art goes beyond ordinary consciousness as film does, straight to our emotions, deep into the twilight room of the soul." 
-But Bergman is also aware that there's risk in this territory.
+notes: just when you thought it was too much, there's another layer. This is John Malkovich as Kyle Maclaughlan playing agent cooper. 
 
 
 ---
 <!-- .slide: data-background-image="media/we_live_inside.png"  -->
 
-notes: We have to strengthen ourselves agains that risk and disorientation to inhabit a world that's no longer academically drained of spirit, but where the reinchantments are decidedly more sinister. Where once were fairies and elves and gelflings, now we have consipiracy theories and cabals. 
+notes: We have to strengthen ourselves to handle the disorientation of these multiplie narratives. Where is our footing? 
+
+This image is associated with Cyrus Reed Teed. Not the only one who believed that we actually live on the inside shell of a hollow earth.
 
 ---
 <!-- .slide: data-background-image="media/we_live_inside.png" data-transition="none-in zoom-out"  -->
@@ -88,40 +96,48 @@ notes: We have to strengthen ourselves agains that risk and disorientation to in
   src="media/concave_convex.mov" width="40%">
 </video> 
 
-notes: 
+notes: Maybe delusion is organized and prevalent enough to be a kind of sorcery of its own, but more sinister: conspiracies and cabals replace the fairies and gelflings.
 
 ---
 <!-- .slide: data-background-color="goldenrod" data-transition="zoom-in zoom-out" -->
 ![baja](media/baja.png)
 
-notes: we need grounding, so I'll start with this piece of ground. Jen woke up yesterday morning talking about how some dogs like wearing boots and some don't because they can't feel the ground, they lose touch with the world. 
+notes: to counter this we need grounding, so I'll start with this piece of ground.
+- where we're going soon
+- jen and the dog boots
+- the question: is digital earth any good for grounding, or is it already contaminated by the multiplicity inherent in the online environment. 
+
 
 ---
 <!-- .slide: data-background-video="media/enchanted_earth.mov" data-transition="zoom-in none-out" -->
 
 
-notes: I decided to ground deeply into our digital _representations_ of the world to orient to the new landscape. Here's what I found.
+notes: so here's the experiment with Google Earth: find a spot in the foothills of the mountain range, look straight down and send your roots deep into the ground, then laungh Eastward into the mountains.
+
+And through the mountains to the other side! A glitch in Google Earth? Or a glimpse of truth? We look for grounding and end up in this improbable space. So... is heaven above or below? 
 
 ---
 <!-- .slide: data-background-color="black" data-transition="none-in fade-out" -->
 
 ![grandmother](media/facetime_with_the_dead.png)
 
-notes: So is heaven above or below? Who is more substantial or "real" in this picture? My dead grandmother resting unenbalmed in her coffin - lovingly made by some of her children - or the spectral figures Zooming in via the laptop to see her one last time? In Daniel Kopenawa's description of Yanomami dream life, the dead are partying all the time and appear in peoples dreams to encourage the living to join them on the other side...
+notes: Who is more substantial or "real" in this picture? My dead grandmother resting unenbalmed in her coffin - lovingly made by some of her children - or the spectral figures Zooming in via the laptop to see her one last time? 
+
+In Daniel Kopenawa's description of Yanomami dream life, the dead are partying all the time and appear in peoples dreams to encourage the living to join them on the other side...
 
 ---
 <!-- .slide: data-auto-animate data-background-color="black" data-transition="fade-in none-out" -->
 
 underworld 
 
-notes: in what we might call the underworld if we weren't already thrown off balance by that Google Earth discovery. 
+notes: ...in what we might call the underworld if we weren't already thrown off balance by that Google Earth discovery. 
 
 ---
 <!-- .slide: data-auto-animate data-background-color="black" data-transition="none-in fade-out" -->
 
 [under|other]world 
 
-notes: Maybe it's just an otherworld. But as I noted before, those of us living in the disenchanted world of secular liberalism - particulary in academia - might entertain multiplicity without really embracing it. We use the square brackets to show that we know whats going on. I'd suggest those brackets might also be a stress response to multiplicity, bringing it into a smaller frame that's easier to control and deal with. 
+notes: Maybe it's just an otherworld, parallel, closer than we think.
 
 ---
 
@@ -132,7 +148,7 @@ Q: Is it old or young?
 
 A: Yes. <!-- .element: class="fragment"   -->
 
-notes: Multiplicity and 
+notes: One way out of the either/or comes via the bi-valent images brought by Gestalt. 
 
 ---
 
@@ -143,14 +159,18 @@ notes: Multiplicity and
 
 Being is the interconnecteness, the resonant ecology, of things. <!-- .element: class="fragment" data-fragment-index="1" style="position: relative; top:-300px"  -->
 
-notes: read from zwicky
+notes: Describe Jan Zwicky
+- perceptual impossibility to see both at the same time
+- all we can do is switch between
+- it is one AND it is the other
+- wisdom comes from seeing_as, the flexibilty of metaphor, the experience of switching between more than the state of being in one or the other
 
 
 ---
 <!-- .slide: data-background-image="media/inversion.png"  -->
 I can only say, there we have been: but I cannot say where.
 
-notes: "something else comes into play with re-enchantment, something that makes us perk up, listen more, see more, be aware like never before as to what is happening. The world acquires strangeness and we start exploring like when we were kids."
+notes: That doesn't bring more stability, but it does point to a world that might have more magic and surprise - or as Taussig would put it, re-enchantment. Here's another quote from him: "Something else comes into play with re-enchantment, something that makes us perk up, listen more, see more, be aware like never before as to what is happening. The world acquires strangeness and we start exploring like when we were kids."
 
 ---
 <!-- .slide: data-background-image="media/books.jpeg" data-transition="none-in none-out -->
@@ -161,15 +181,22 @@ notes: "something else comes into play with re-enchantment, something that makes
     height="450px"
   /> <!-- .element: class="fragment fade-down" -->
 
+notes: But it's good to have some tools for exploring. And if the landscape we need to explore is enchanted, maybe dreams can be the vehicles for our exploring. 
+
+Castaneda bit.
+
 ---
 <!-- .slide: data-background-color="goldenrold" -->
 
 # Lucid dream
 
+notes: - what they are
+- does anyone do it? 
+- evidence to suggest that people who question the solidity of their reality in waking life can see through the apparent solidity of their dreams more regularly. 
 
 ---
 <!-- .slide: data-background-color="goldenrod" -->
-## Safety checklist
+## Pre-lucidity checklist
 
 - check your pockets for lint <!-- .element: class="fragment" -->
 - are you wearing socks? <!-- .element: class="fragment" -->
@@ -188,4 +215,9 @@ notes: "something else comes into play with re-enchantment, something that makes
 ---
 <video style="position: relative; top:-230px"
   src="media/dream_chat.mov" controls="controls" height="1100px">
-</video> 
+</video>
+
+---
+<!-- .slide: data-background-image="media/djuna.jpeg" -->
+
+## Round the mulberry we go... 
